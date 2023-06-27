@@ -1,0 +1,41 @@
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:maxLength="6"
+        android:inputType="numberDecimal"
+        android:id="@+id/edtPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu peso"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:maxLength="6"
+        android:inputType="numberDecimal"
+        android:id="@+id/edtAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite sua altura"
+        android:layout_below="@+id/edtPeso"
+        android:minHeight="48dp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonClick"
+        android:layout_alignParentBottom="true"
+        android:text="@string/buttom"
+
+        />
+
+</RelativeLayout>
