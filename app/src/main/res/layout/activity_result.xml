@@ -37,31 +37,31 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginStart="16dp"
         android:text="MENOR QUE 18,5 MAGREZA" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginStart="16dp"
         android:text="ENTRE 18,5 E 24,9	NORMAL" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginStart="16dp"
         android:text="ENTRE 25,0 E 29,9	SOBREPESO" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginStart="16dp"
         android:text="ENTRE 30,0 E 39,9	OBESIDADE" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginStart="16dp"
         android:text="MAIOR QUE 40,0	OBESIDADE GRAVE" />
 
 </LinearLayout>
